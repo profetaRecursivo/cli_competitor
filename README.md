@@ -45,10 +45,9 @@ fact -a 10 15 20  # Factoriza un array de números
 
 ### 3. `gencomp`
 
-Esta herramienta genera números compuestos dentro de un rango dado.
-
+Esta herramienta genera una carpeta con archivos .cpp numerados desde la a hasta la z (o la cantidad que prefieras) con opcion a pasarle la ruta de un snippet y copie su contenido a cada archivo, ideal para contests de codeforces
 **Uso:**
 ```bash
-gencomp 10 50   # Muestra los números compuestos entre 10 y 50
+gencomp -n 10 "Codeforces Round 9999" #crea la carpeta ~/competencias/Codeforces_Round_9999 y en su interior 10 archivos con extension .cpp, a.cpp, b.cpp, ...
 ```
 
